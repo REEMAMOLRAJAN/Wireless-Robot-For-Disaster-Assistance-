@@ -148,7 +148,7 @@ fstream file;
 file.open("Hello.txt",ios::out);
 file << buff;
 file.close();
-system("sendemail -f disasterrobot@gmail.com -t lino.msamuel@gmail.com -u Distress Signal Orginated Please Respond Immediatly -o message-file=Hello.txt -s smtp.googlemail.com:587 -xu disasterrobot@gmail.com -xp Group2jlr -o tls=yes");
+system("sendemail -f disasterrobot@gmail.com -t reemamolrajan@gmail.com -u Distress Signal Orginated Please Respond Immediatly -o message-file=Hello.txt -s smtp.googlemail.com:587 -xu disasterrobot@gmail.com -xp Group2jlr -o tls=yes");
 break;
 }
 
