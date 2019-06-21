@@ -30,7 +30,6 @@ using namespace std;
 #define RIGHT         125     // for the left, right and
 #define CENTER        75      // center servo positions
 
-
 int main(int, char**)
 {
       int serial_port; 
