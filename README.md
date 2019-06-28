@@ -4,8 +4,6 @@ gps.cpp/
 
 //servo mail and gps
 
-
-
 #include <ctime>
 #include <fstream>
 #include <iostream>
@@ -18,16 +16,14 @@ gps.cpp/
 #include <errno.h>
 #include <wiringSerial.h>
 
-//#include "opencv2/opencv.hpp"
-
+// camera code
 //using namespace cv;
 using namespace std;
-
 
 #define PWM_SERVO     18      // this is PWM0, pin 12
 
 #define LEFT          37      // manually calibrated values
-#define RIGHT         125     // for the left, right and
+#define RIGHT         125     // for the right
 #define CENTER        75      // center servo positions
 
 int main(int, char**)
