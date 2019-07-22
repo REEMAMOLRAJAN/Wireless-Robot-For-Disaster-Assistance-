@@ -36,7 +36,7 @@ int main(int, char**)
     
     
 
-   wiringPiSetupGpio();                  // use the GPIO numbering
+   wiringPiSetupGpio ();                  // use the GPIO numbering
    pinMode(PWM_SERVO, PWM_OUTPUT);       // the PWM servo
    pwmSetMode(PWM_MODE_MS);              // use a fixed frequency
    pwmSetRange(1000);                    // 1000 steps
