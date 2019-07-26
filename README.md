@@ -89,11 +89,6 @@ cout<<"Opening Camera...2"<<endl;
 
  sleep(3);
 
-
-
-
-
-
 if ((serial_port = serialOpen ("/dev/ttyS0", 9600)) < 0)		/* open serial port */
  {
     fprintf (stderr, "Unable to open serial device: %s\n", strerror (errno)) ;
@@ -141,10 +136,10 @@ for (int ii=0;ii<1;ii++)
 		is_GGA_received_completely = 0;
 }
 fstream file;
-file.open("Hello.txt",ios::out);
+file.open("gps.txt",ios::out);
 file << buff;
 file.close();
-system("sendemail -f disasterrobot@gmail.com -t reemamolrajan@gmail.com -u Distress Signal Orginated Please Respond Immediatly -o message-file=Hello.txt -s smtp.googlemail.com:587 -xu disasterrobot@gmail.com -xp Group2jlr -o tls=yes");
+system("sendemail -f disasterrobot@gmail.com -t reemamolrajan@gmail.com -u Distress Signal Orginated Please Respond Immediatly -o message-file=gps.txt -s smtp.googlemail.com:587 -xu disasterrobot@gmail.com -xp Group2jlr -o tls=yes");
 break;
 }
 
