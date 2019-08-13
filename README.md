@@ -5,7 +5,7 @@ moniter the disaster affected area through the camera fixed on our robot. If it 
 //The project is divided into 3 different parts
 
 
-
+The robot uses Raspberry Pi model 3+ as its processor.
 
 
 
