@@ -10,3 +10,4 @@ The robot uses Raspberry Pi model 3+ as its processor.
 
 
 
+The OpenCV library helps to acquire live feed
