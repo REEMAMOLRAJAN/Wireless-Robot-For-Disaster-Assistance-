@@ -7,7 +7,7 @@ moniter the disaster affected area through the camera fixed on our robot. If it 
 
 The robot uses Raspberry Pi model 3+ as its processor.
 //Robot fetches location using Neo 6m GPS. The only issue with the GPS is that sometimes it fails to catch signal when placed indoors and it is a cloudy day. 
-
+The built in wifi of Raspberry pi serves the purpose.
 
 
 
